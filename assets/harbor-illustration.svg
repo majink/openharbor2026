@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 40 900 320" aria-label="등대와 선장 모자를 쓴 갈매기 마스코트가 있는 포항 항구 일러스트">
+<circle cx="760" cy="98" r="40" fill="#FFD45C"></circle>
+<g fill="#FFFFFF">
+<circle cx="230" cy="118" r="16"></circle><circle cx="252" cy="108" r="22"></circle><circle cx="276" cy="119" r="15"></circle><rect x="214" y="118" width="78" height="16" rx="8"></rect>
+<circle cx="640" cy="128" r="14"></circle><circle cx="660" cy="119" r="19"></circle><circle cx="681" cy="129" r="13"></circle><rect x="626" y="128" width="68" height="14" rx="7"></rect>
+</g>
+<path d="M360 92 Q360 104 372 104 Q360 104 360 116 Q360 104 348 104 Q360 104 360 92 Z" fill="#FFFFFF"></path>
+<path d="M560 70 Q560 78 568 78 Q560 78 560 86 Q560 78 552 78 Q560 78 560 70 Z" fill="#FFFFFF"></path>
+<path d="M596 176 q8 -8 16 0 q8 -8 16 0" stroke="#13315C" stroke-width="2.5" fill="none" stroke-linecap="round"></path>
+<path d="M628 160 q6 -6 12 0 q6 -6 12 0" stroke="#13315C" stroke-width="2.5" fill="none" stroke-linecap="round"></path>
+
+<g transform="translate(40,0)">
+<polygon points="146,86 270,56 270,118" fill="#FFE58A" opacity="0.6"></polygon>
+<ellipse cx="130" cy="246" rx="78" ry="20" fill="#7C8BA1" stroke="#13315C" stroke-width="3"></ellipse>
+<polygon points="100,245 160,245 148,110 112,110" fill="#FFFFFF" stroke="#13315C" stroke-width="3" stroke-linejoin="round"></polygon>
+<polygon points="109.4,140 150.6,140 152.7,165 107.3,165" fill="#FF6B4A"></polygon>
+<polygon points="104.7,195 155.3,195 157.4,220 102.6,220" fill="#FF6B4A"></polygon>
+<circle cx="121" cy="178" r="3.2" fill="#13315C"></circle>
+<circle cx="139" cy="178" r="3.2" fill="#13315C"></circle>
+<path d="M124 185 Q130 191 136 185" stroke="#13315C" stroke-width="2.5" fill="none" stroke-linecap="round"></path>
+<ellipse cx="115" cy="185" rx="4" ry="2.6" fill="#FF9AA8"></ellipse>
+<ellipse cx="145" cy="185" rx="4" ry="2.6" fill="#FF9AA8"></ellipse>
+<rect x="114" y="72" width="32" height="30" rx="4" fill="#FFD45C" stroke="#13315C" stroke-width="3"></rect>
+<rect x="104" y="100" width="52" height="11" rx="4" fill="#13315C"></rect>
+<polygon points="108,73 152,73 130,48" fill="#FF6B4A" stroke="#13315C" stroke-width="3" stroke-linejoin="round"></polygon>
+<circle cx="130" cy="45" r="4.5" fill="#13315C"></circle>
+</g>
+
+<path d="M0 240 Q25 228 50 240 T100 240 T150 240 T200 240 T250 240 T300 240 T350 240 T400 240 T450 240 T500 240 T550 240 T600 240 T650 240 T700 240 T750 240 T800 240 T850 240 T900 240 L900 400 L0 400 Z" fill="#5AB0E8"></path>
+
+<g transform="translate(-60,0)">
+<line x1="700" y1="262" x2="700" y2="196" stroke="#13315C" stroke-width="3" stroke-linecap="round"></line>
+<polygon points="703,200 703,256 744,256" fill="#FF7A45" stroke="#13315C" stroke-width="2.5" stroke-linejoin="round"></polygon>
+<polygon points="700,196 718,202 700,208" fill="#FFD45C" stroke="#13315C" stroke-width="2" stroke-linejoin="round"></polygon>
+<path d="M660 262 L744 262 Q736 283 714 285 L690 285 Q667 283 660 262 Z" fill="#FFFFFF" stroke="#13315C" stroke-width="3" stroke-linejoin="round"></path>
+<line x1="758" y1="248" x2="780" y2="248" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"></line>
+<line x1="754" y1="260" x2="790" y2="260" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"></line>
+</g>
+
+<g transform="translate(-20,0)">
+<line x1="428" y1="206" x2="412" y2="138" stroke="#13315C" stroke-width="3" stroke-linecap="round"></line>
+<polygon points="412,138 456,149 414,162" fill="#FF6B4A" stroke="#13315C" stroke-width="2.5" stroke-linejoin="round"></polygon>
+<ellipse cx="470" cy="214" rx="44" ry="44" fill="#FFFFFF" stroke="#13315C" stroke-width="3"></ellipse>
+<ellipse cx="432" cy="210" rx="11" ry="19" fill="#D6DEE8" stroke="#13315C" stroke-width="3" transform="rotate(28 432 210)"></ellipse>
+<ellipse cx="508" cy="228" rx="12" ry="19" fill="#D6DEE8" stroke="#13315C" stroke-width="3" transform="rotate(-24 508 228)"></ellipse>
+<circle cx="457" cy="200" r="4.5" fill="#13315C"></circle>
+<circle cx="483" cy="200" r="4.5" fill="#13315C"></circle>
+<circle cx="458.5" cy="198.5" r="1.4" fill="#FFFFFF"></circle>
+<circle cx="484.5" cy="198.5" r="1.4" fill="#FFFFFF"></circle>
+<polygon points="463,209 477,209 470,221" fill="#FFB23F" stroke="#13315C" stroke-width="2.5" stroke-linejoin="round"></polygon>
+<ellipse cx="446" cy="212" rx="6" ry="4" fill="#FF9AA8"></ellipse>
+<ellipse cx="494" cy="212" rx="6" ry="4" fill="#FF9AA8"></ellipse>
+<path d="M446 176 Q470 144 494 176 Z" fill="#FFFFFF" stroke="#13315C" stroke-width="3" stroke-linejoin="round"></path>
+<ellipse cx="470" cy="177" rx="28" ry="6.5" fill="#13315C"></ellipse>
+<circle cx="470" cy="160" r="4" fill="#FF6B4A"></circle>
+<path d="M395 250 L545 250 Q535 285 500 289 L440 289 Q405 285 395 250 Z" fill="#FF7A45" stroke="#13315C" stroke-width="3" stroke-linejoin="round"></path>
+<line x1="402" y1="262" x2="538" y2="262" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"></line>
+</g>
+
+<path d="M-25 274 Q0 286 25 274 T75 274 T125 274 T175 274 T225 274 T275 274 T325 274 T375 274 T425 274 T475 274 T525 274 T575 274 T625 274 T675 274 T725 274 T775 274 T825 274 T875 274 T925 274 L925 400 L-25 400 Z" fill="#2E7DD1"></path>
+<circle cx="770" cy="276" r="11" fill="#FF6B4A" stroke="#13315C" stroke-width="2.5"></circle>
+<rect x="759" y="273" width="22" height="5" fill="#FFFFFF"></rect>
+<path d="M0 318 Q25 308 50 318 T100 318 T150 318 T200 318 T250 318 T300 318 T350 318 T400 318 T450 318 T500 318 T550 318 T600 318 T650 318 T700 318 T750 318 T800 318 T850 318 T900 318 L900 400 L0 400 Z" fill="#13315C"></path>
+</svg>
