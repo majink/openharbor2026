@@ -243,7 +243,7 @@ section[id] { scroll-margin-top: calc(var(--bar-h) + 8px); }
   border: 14px solid transparent; border-bottom: 0; border-top: 16px solid var(--navy);
 }
 .bubble__ko { text-wrap: balance; font-family: var(--font-title); font-size: clamp(19px, 2.4vw, 27px); line-height: 1.3; }
-.bubble__en { font-family: var(--font-en); font-weight: 500; font-size: 15px; color: #1D4E89; }
+.bubble__en { font-family: var(--font-en); font-weight: 600; font-size: 15px; color: #1D4E89; }
 
 .hero__art {
   --bob: 2px;

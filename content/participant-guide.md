@@ -54,10 +54,10 @@ OPEN HARBOR 2026은 포항에서 한국인과 외국인 청년이 함께 문제�
 | 날짜 | 내용 |
 |---|---|
 | 10월 12일(월) | 참가 신청 시작 |
-| 10월 22일(목) 저녁 | 특강 (한동대, 신청 전이어도 참석 가능) |
 | 10월 25일(일) | 참가 신청 마감 |
 | 10월 28일(수) | 서류 결과 발표 |
-| 11월 3일(화) 저녁 | AI 교육 (온라인) |
+| 10월 마지막 주 주중 저녁 | 특강 (한동대) |
+| 11월 첫째 주 주중 저녁 | AI 교육 (온라인) |
 | 11월 5일(목) | 중간 결과물 제출 |
 | 11월 8일(일) | 중간 피드백 회신 |
 | 11월 12일(목) 18:00~21:00 | 본행사 (다시 육거리) |
@@ -164,7 +164,7 @@ OPEN HARBOR 2026 is a hackathon in Pohang where Korean and international young p
 - Ideathon: Up to 10 teams. Propose an idea for a problem that foreign residents or visitors face in Pohang
 - Businessthon: Up to 6 teams selected by document review. Any field, solving a local or global problem
 - Prizes: Cash prizes for winning teams in both tracks (amounts to be announced), plus investor connections for Businessthon winners
-- Free programs: Special lecture (Oct 22), online AI workshop (Nov 3), mid-point feedback (Nov 5–8)
+- Free programs: Special lecture (last week of Oct, weekday evening), online AI workshop (first week of Nov, weekday evening), mid-point feedback (Nov 5–8)
 - Application: Oct 12 – Oct 25 via Google Form (Korean or English). Results announced Oct 28
 - Submission: Businessthon teams submit a business plan (1-page summary + up to 4 pages) or a pitch deck (up to 15 slides) as a PDF
 - Evaluation: Criteria for both tracks are listed in section 4 and are shared in advance

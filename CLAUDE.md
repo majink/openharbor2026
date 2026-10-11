@@ -8,7 +8,7 @@
 - 빌드 도구·프레임워크 없이 정적 파일 3개: `index.html`, `style.css`, `main.js`
 - 외부 의존성은 Google Fonts만 사용 (Jua, Fredoka, IBM Plex Sans KR)
 - 이미지·일러스트는 `assets/`의 SVG 사용. 외부 이미지 URL 금지
-- 배포: Netlify (https://openharbor2026.netlify.app). `index.html`, `style.css`, `main.js`, `assets/`만 올린다. 경로는 모두 상대경로로 작성 (OG 이미지·URL만 절대경로)
+- 배포: Netlify (https://openharbor2026.netlify.app). `index.html`, `style.css`, `main.js`, `assets/`와 `robots.txt`, `sitemap.xml`, `_headers`만 올린다. 구글 폰트 CSS는 첫 화면을 막지 않게 비동기로 불러온다. 경로는 모두 상대경로로 작성 (OG 이미지·URL만 절대경로)
 - 링크·연락처 등 바뀔 수 있는 값은 `main.js` 맨 위 CONFIG에 모아 두고, HTML에서는 `data-config` 속성으로 주입한다
 
 ```js
