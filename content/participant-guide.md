@@ -28,7 +28,7 @@ OPEN HARBOR 2026은 포항에서 한국인과 외국인 청년이 함께 문제�
 - 신청 시 제출: 신청서(문제와 해결 아이디어)
 - 본행사: 아이디어 발표
 - 혜택: 상금, 심사위원 피드백
-- 주제: 포항이나 주변에서 외국인이 겪는 불편 하나를 골라 해결 아이디어를 제안합니다. 아래 두 부문 중 하나를 고릅니다.
+- 주제: 포항이 글로벌도시로 확장되는 과정에서 어려움이 생기는 문제를 찾아 해결 방안을 제안합니다. 특히 외국인이 겪는 불편에 주목해 아래 두 부문 중 하나를 고릅니다.
   - 부문 1. 외국인 정주환경: 포항에 살고 있는 외국인(유학생·연구자·근로자)의 생활 환경. 예) 다국어 생활정보, 병원·교통 이용, 일자리·창업 지원
   - 부문 2. 외국인 방문객 환경: 포항을 찾는 외국인 방문객의 이용 환경. 예) 관광 안내, 지역 상권 연계
 - 외국인·글로벌 관점이 없는 포항 지역 문제도 제출할 수 있지만, 평가 항목 '문제 정의(글로벌)'에서 낮은 점수를 받을 수 있습니다.
@@ -161,7 +161,7 @@ OPEN HARBOR 2026 is a hackathon in Pohang where Korean and international young p
 
 - Main event: Thursday, November 12, 2026, 6–9 PM (subject to change), Dasi Yukgeori, Pohang
 - Who can apply: Korean and international young people interested in Pohang and global issues. Individuals or teams of up to 5
-- Ideathon: Up to 10 teams. Propose an idea for a problem that foreign residents or visitors face in Pohang
+- Ideathon: Up to 10 teams. Propose a solution to a problem that holds Pohang back as a growing global city, such as what foreign residents or visitors face
 - Businessthon: Up to 6 teams selected by document review. Any field, solving a local or global problem
 - Prizes: Cash prizes for winning teams in both tracks (amounts to be announced), plus investor connections for Businessthon winners
 - Free programs: Special lecture (last week of Oct, weekday evening), online AI workshop (first week of Nov, weekday evening), mid-point feedback (Nov 5–8)
