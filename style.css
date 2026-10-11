@@ -277,7 +277,7 @@ section[id] { scroll-margin-top: calc(var(--bar-h) + 8px); }
 /* ===== 구역 배경 ===== */
 .zone--cream { background: var(--cream); }
 .zone--navy { background: var(--navy); color: #fff; margin-top: -1px; }
-.zone--navy a { color: var(--yellow); }
+.zone--navy a:not(.btn) { color: var(--yellow); }
 .zone--navy .card { color: var(--navy); }
 .zone--navy .card a:not(.btn) { color: var(--blue); }
 
