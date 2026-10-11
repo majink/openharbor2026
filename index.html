@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OPEN HARBOR 2026 · 글로벌 창업 AI 해커톤</title>
+<meta name="description" content="포항에서 한국인과 외국인 청년이 함께 문제를 풀고 아이템을 키우는 해커톤. 아이디어톤·비즈니스톤 두 트랙, 신청 기간 10월 12일~25일, 본행사 11월 12일.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="OPEN HARBOR 2026 · 글로벌 창업 AI 해커톤">
+<meta property="og:description" content="들어오는 문제를 풀고, 나가는 아이템을 키운다. 아이디어톤·비즈니스톤 참가 신청 10월 12일~25일.">
+<meta property="og:url" content="https://majink.github.io/openharbor2026/">
+<meta property="og:image" content="https://majink.github.io/openharbor2026/assets/og-image.png">
+<meta property="og:image:alt" content="등대와 선장 모자를 쓴 갈매기 마스코트가 있는 포항 항구 일러스트와 OPEN HARBOR 2026 제목">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#BFE3F7">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=IBM+Plex+Sans+KR:wght@400;600;700&family=Jua&display=swap">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js');</script>
+<script src="main.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#overview">본문 바로가기</a>
+
+<header class="topbar" id="topbar">
+  <div class="topbar__inner">
+    <a class="logo" href="#top">OPEN HARBOR 2026</a>
+    <nav class="nav" aria-label="섹션 바로가기">
+      <ul>
+        <li><a href="#tracks">트랙</a></li>
+        <li><a href="#benefits">혜택</a></li>
+        <li><a href="#schedule">일정</a></li>
+        <li><a href="#evaluation">평가</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn--sm" data-config="FORM_URL" data-empty-text="신청 준비 중">신청하기</a>
+  </div>
+  <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+</header>
+
+<!-- 히어로 -->
+<section class="hero" id="top">
+  <div class="hero__copy" id="hero-copy">
+    <div class="hero__meta">
+      <p>글로컬대학30 · 2026 글로벌도시 구축 프로젝트</p>
+      <p class="hero__meta-en" lang="en">HANDONG × HI ALLIANCE</p>
+    </div>
+    <h1 class="hero__title" aria-label="OPEN HARBOR 2026">
+      <span class="hero__line" aria-hidden="true"><span class="t-open">OPEN</span><span class="badge-year">2026</span></span>
+      <span class="hero__line t-harbor" aria-hidden="true">HARBOR</span>
+    </h1>
+    <div class="hero__row">
+      <p class="hero__sub">
+        <span class="hero__sub-ko">글로벌 창업 AI 해커톤</span>
+        <span class="hero__sub-en" lang="en">Global Startup Hackathon in Pohang</span>
+      </p>
+      <div class="hero__actions" id="hero-cta">
+        <a class="btn" data-config="FORM_URL" data-empty-text="신청 준비 중">신청하기</a>
+        <a class="btn btn--light" href="#overview">참가 안내 보기</a>
+      </div>
+    </div>
+    <div class="bubble">
+      <p class="bubble__ko">들어오는 문제를 풀고, 나가는 아이템을 키운다</p>
+      <p class="bubble__en" lang="en">Fix what comes in, launch what goes out.</p>
+    </div>
+  </div>
+
+  <div class="hero__art" id="hero-art">
+    <svg viewBox="0 40 900 320" role="img" aria-label="등대와 선장 모자를 쓴 갈매기 마스코트가 있는 포항 항구 일러스트">
+      <g class="sky" id="hero-sky">
+        <circle cx="760" cy="98" r="40" fill="#FFD45C"/>
+        <g fill="#FFFFFF">
+          <circle cx="230" cy="118" r="16"/><circle cx="252" cy="108" r="22"/><circle cx="276" cy="119" r="15"/><rect x="214" y="118" width="78" height="16" rx="8"/>
+          <circle cx="640" cy="128" r="14"/><circle cx="660" cy="119" r="19"/><circle cx="681" cy="129" r="13"/><rect x="626" y="128" width="68" height="14" rx="7"/>
+        </g>
+        <path d="M596 176 q8 -8 16 0 q8 -8 16 0" stroke="#13315C" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        <path d="M628 160 q6 -6 12 0 q6 -6 12 0" stroke="#13315C" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      </g>
+
+      <g transform="translate(40,0)">
+        <polygon points="146,86 270,56 270,118" fill="#FFE58A" opacity="0.6"/>
+        <ellipse cx="130" cy="246" rx="78" ry="20" fill="#7C8BA1" stroke="#13315C" stroke-width="3"/>
+        <polygon points="100,245 160,245 148,110 112,110" fill="#FFFFFF" stroke="#13315C" stroke-width="3" stroke-linejoin="round"/>
+        <polygon points="109.4,140 150.6,140 152.7,165 107.3,165" fill="#FF6B4A"/>
+        <polygon points="104.7,195 155.3,195 157.4,220 102.6,220" fill="#FF6B4A"/>
+        <circle cx="121" cy="178" r="3.2" fill="#13315C"/>
+        <circle cx="139" cy="178" r="3.2" fill="#13315C"/>
+        <path d="M124 185 Q130 191 136 185" stroke="#13315C" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        <ellipse cx="115" cy="185" rx="4" ry="2.6" fill="#FF9AA8"/>
+        <ellipse cx="145" cy="185" rx="4" ry="2.6" fill="#FF9AA8"/>
+        <rect x="114" y="72" width="32" height="30" rx="4" fill="#FFD45C" stroke="#13315C" stroke-width="3"/>
+        <rect x="104" y="100" width="52" height="11" rx="4" fill="#13315C"/>
+        <polygon points="108,73 152,73 130,48" fill="#FF6B4A" stroke="#13315C" stroke-width="3" stroke-linejoin="round"/>
+        <circle cx="130" cy="45" r="4.5" fill="#13315C"/>
+      </g>
+
+      <path class="sea sea--back" fill="#5AB0E8" d="M-600 240 Q-575 228 -550 240 T-500 240 T-450 240 T-400 240 T-350 240 T-300 240 T-250 240 T-200 240 T-150 240 T-100 240 T-50 240 T0 240 T50 240 T100 240 T150 240 T200 240 T250 240 T300 240 T350 240 T400 240 T450 240 T500 240 T550 240 T600 240 T650 240 T700 240 T750 240 T800 240 T850 240 T900 240 T950 240 T1000 240 T1050 240 T1100 240 T1150 240 T1200 240 T1250 240 T1300 240 T1350 240 T1400 240 T1450 240 T1500 240 L1500 420 L-600 420 Z"/>
+
+      <g class="boat">
+        <g transform="translate(-60,0)">
+          <line x1="700" y1="262" x2="700" y2="196" stroke="#13315C" stroke-width="3" stroke-linecap="round"/>
+          <polygon points="703,200 703,256 744,256" fill="#FF7A45" stroke="#13315C" stroke-width="2.5" stroke-linejoin="round"/>
+          <polygon points="700,196 718,202 700,208" fill="#FFD45C" stroke="#13315C" stroke-width="2" stroke-linejoin="round"/>
+          <path d="M660 262 L744 262 Q736 283 714 285 L690 285 Q667 283 660 262 Z" fill="#FFFFFF" stroke="#13315C" stroke-width="3" stroke-linejoin="round"/>
+          <line x1="758" y1="248" x2="780" y2="248" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+          <line x1="754" y1="260" x2="790" y2="260" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+        </g>
+      </g>
+
+      <g transform="translate(-20,0)">
+        <line x1="428" y1="206" x2="412" y2="138" stroke="#13315C" stroke-width="3" stroke-linecap="round"/>
+        <polygon points="412,138 456,149 414,162" fill="#FF6B4A" stroke="#13315C" stroke-width="2.5" stroke-linejoin="round"/>
+        <ellipse cx="470" cy="214" rx="44" ry="44" fill="#FFFFFF" stroke="#13315C" stroke-width="3"/>
+        <ellipse cx="432" cy="210" rx="11" ry="19" fill="#D6DEE8" stroke="#13315C" stroke-width="3" transform="rotate(28 432 210)"/>
+        <ellipse cx="508" cy="228" rx="12" ry="19" fill="#D6DEE8" stroke="#13315C" stroke-width="3" transform="rotate(-24 508 228)"/>
+        <circle cx="457" cy="200" r="4.5" fill="#13315C"/>
+        <circle cx="483" cy="200" r="4.5" fill="#13315C"/>
+        <circle cx="458.5" cy="198.5" r="1.4" fill="#FFFFFF"/>
+        <circle cx="484.5" cy="198.5" r="1.4" fill="#FFFFFF"/>
+        <polygon points="463,209 477,209 470,221" fill="#FFB23F" stroke="#13315C" stroke-width="2.5" stroke-linejoin="round"/>
+        <ellipse cx="446" cy="212" rx="6" ry="4" fill="#FF9AA8"/>
+        <ellipse cx="494" cy="212" rx="6" ry="4" fill="#FF9AA8"/>
+        <path d="M446 176 Q470 144 494 176 Z" fill="#FFFFFF" stroke="#13315C" stroke-width="3" stroke-linejoin="round"/>
+        <ellipse cx="470" cy="177" rx="28" ry="6.5" fill="#13315C"/>
+        <circle cx="470" cy="160" r="4" fill="#FF6B4A"/>
+        <path d="M395 250 L545 250 Q535 285 500 289 L440 289 Q405 285 395 250 Z" fill="#FF7A45" stroke="#13315C" stroke-width="3" stroke-linejoin="round"/>
+        <line x1="402" y1="262" x2="538" y2="262" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+      </g>
+
+      <path class="sea sea--mid" fill="#2E7DD1" d="M-625 274 Q-600 286 -575 274 T-525 274 T-475 274 T-425 274 T-375 274 T-325 274 T-275 274 T-225 274 T-175 274 T-125 274 T-75 274 T-25 274 T25 274 T75 274 T125 274 T175 274 T225 274 T275 274 T325 274 T375 274 T425 274 T475 274 T525 274 T575 274 T625 274 T675 274 T725 274 T775 274 T825 274 T875 274 T925 274 T975 274 T1025 274 T1075 274 T1125 274 T1175 274 T1225 274 T1275 274 T1325 274 T1375 274 T1425 274 T1475 274 T1525 274 L1525 420 L-625 420 Z"/>
+      <circle cx="770" cy="276" r="11" fill="#FF6B4A" stroke="#13315C" stroke-width="2.5"/>
+      <rect x="759" y="273" width="22" height="5" fill="#FFFFFF"/>
+      <path class="sea sea--front" fill="#13315C" d="M-600 318 Q-575 308 -550 318 T-500 318 T-450 318 T-400 318 T-350 318 T-300 318 T-250 318 T-200 318 T-150 318 T-100 318 T-50 318 T0 318 T50 318 T100 318 T150 318 T200 318 T250 318 T300 318 T350 318 T400 318 T450 318 T500 318 T550 318 T600 318 T650 318 T700 318 T750 318 T800 318 T850 318 T900 318 T950 318 T1000 318 T1050 318 T1100 318 T1150 318 T1200 318 T1250 318 T1300 318 T1350 318 T1400 318 T1450 318 T1500 318 L1500 420 L-600 420 Z"/>
+    </svg>
+  </div>
+  <div class="hero__sea" aria-hidden="true"></div>
+</section>
+
+<div class="divider divider--navy-to-cream" aria-hidden="true">
+  <svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M-480 30 Q-420 12 -360 30 T-240 30 T-120 30 T0 30 T120 30 T240 30 T360 30 T480 30 T600 30 T720 30 T840 30 T960 30 T1080 30 T1200 30 T1320 30 T1440 30 T1560 30 T1680 30 T1800 30 T1920 30 L1920 60 L-480 60 Z"/></svg>
+</div>
+
+<main>
+<div class="zone zone--cream">
+
+  <!-- 한눈에 보기 -->
+  <section class="section" id="overview">
+    <div class="wrap">
+      <h2 class="section__title" data-reveal>한눈에 보기</h2>
+      <p class="section__lead" data-reveal>포항에서 한국인과 외국인 청년이 함께 문제를 풀고 아이템을 키우는 해커톤입니다.<br class="br-wide"> 아이디어만 있어도, 준비 중인 아이템이 있어도 참가할 수 있습니다.</p>
+      <ul class="grid grid--4" data-stagger>
+        <li class="card fact">
+          <h3 class="label">본행사</h3>
+          <p class="fact__value">11.12(목) 18:00</p>
+          <p class="fact__text">포항 다시 육거리<br><span class="note">시간은 변경될 수 있음</span></p>
+        </li>
+        <li class="card fact">
+          <h3 class="label">참가 대상</h3>
+          <p class="fact__value">한국인·외국인 청년</p>
+          <p class="fact__text">개인 또는 팀(최대 5명)</p>
+        </li>
+        <li class="card fact">
+          <h3 class="label">신청 기간 <span class="dday" id="dday" hidden></span></h3>
+          <p class="fact__value">10.12(월) ~ 10.25(일)</p>
+          <p class="fact__text">한국어·영어 · 약 5~10분</p>
+        </li>
+        <li class="card fact">
+          <h3 class="label">서류 결과 발표</h3>
+          <p class="fact__value">10.28(수)</p>
+          <p class="fact__text">비즈니스톤 서류 심사 결과</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 트랙 -->
+  <section class="section" id="tracks">
+    <div class="wrap">
+      <h2 class="section__title" data-reveal>두 개의 트랙</h2>
+      <p class="section__lead" data-reveal>올해 주제는 <strong lang="en">Fix Pohang, Go Global</strong>. 준비 수준에 맞는 트랙 하나를 골라 신청합니다.</p>
+
+      <div class="grid grid--2" data-stagger>
+        <article class="card track">
+          <div class="track__top">
+            <div class="track__head">
+              <span class="pill pill--yellow" lang="en">TRACK 01</span>
+              <span class="track__tag">지정주제</span>
+            </div>
+            <h3 class="track__name">아이디어톤</h3>
+            <p class="track__who">아이템이 없어도, 포항에서 느낀 불편이 있다면</p>
+          </div>
+          <dl class="stats">
+            <div><dt>모집</dt><dd>최대 10팀</dd></div>
+            <div><dt>제출</dt><dd>신청서만</dd></div>
+            <div><dt>본행사</dt><dd>아이디어 발표</dd></div>
+          </dl>
+          <div class="track__block">
+            <p class="label">주제 · 둘 중 하나 선택</p>
+            <ul class="chips">
+              <li class="chip">외국인 정주환경</li>
+              <li class="chip">외국인 방문객 환경</li>
+            </ul>
+          </div>
+          <div class="track__block">
+            <p class="label">혜택</p>
+            <p class="track__benefit">상금 · 심사위원 피드백</p>
+          </div>
+          <details class="more">
+            <summary>주제 자세히 보기</summary>
+            <div class="more__body">
+              <p>포항이나 주변에서 외국인이 겪는 불편 하나를 골라 해결 아이디어를 제안합니다.</p>
+              <ul class="dots">
+                <li><b>정주환경</b> 유학생·연구자·근로자의 생활. 예) 다국어 생활정보, 병원·교통, 일자리·창업 지원</li>
+                <li><b>방문객 환경</b> 외국인 방문객의 이용 환경. 예) 관광 안내, 지역 상권 연계</li>
+                <li>글로벌 관점이 없는 지역 문제도 낼 수 있지만, '문제 정의(글로벌)' 점수가 낮을 수 있습니다.</li>
+              </ul>
+            </div>
+          </details>
+        </article>
+
+        <article class="card track">
+          <div class="track__top">
+            <div class="track__head">
+              <span class="pill pill--yellow" lang="en">TRACK 02</span>
+              <span class="track__tag">자유주제</span>
+            </div>
+            <h3 class="track__name">비즈니스톤</h3>
+            <p class="track__who">준비 중인 아이템·서비스가 있다면</p>
+          </div>
+          <dl class="stats">
+            <div><dt>모집 · 서류 심사</dt><dd>최대 6팀</dd></div>
+            <div><dt>제출</dt><dd>신청서 + PDF</dd></div>
+            <div><dt>본행사</dt><dd>전시 · IR 피칭</dd></div>
+          </dl>
+          <div class="track__block">
+            <p class="label">주제 · 분야 제한 없음</p>
+            <ul class="chips">
+              <li class="chip">지역 문제</li>
+              <li class="chip">글로벌 문제</li>
+            </ul>
+          </div>
+          <div class="track__block">
+            <p class="label">혜택</p>
+            <p class="track__benefit">상금 · 입상팀 투자자 연결 · 전문가 피드백</p>
+          </div>
+          <details class="more">
+            <summary>참가 조건 자세히 보기</summary>
+            <div class="more__body">
+              <ul class="dots">
+                <li>목표 시장은 국내·해외 모두 가능합니다. 국내 아이템은 글로벌 확장 계획을 함께 보여 주세요.</li>
+                <li>아이디어·기획부터 MVP, 출시, 매출 발생 단계까지 모두 참가할 수 있습니다.</li>
+                <li>캡스톤·다른 대회 아이템도 됩니다. 지원사업 수혜·수상 이력은 사업계획서에 적어 주세요.</li>
+              </ul>
+            </div>
+          </details>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 혜택 -->
+  <section class="section section--tight" id="benefits">
+    <div class="wrap">
+      <div class="band" data-band>
+        <div class="band__head">
+          <h2 class="band__title">참가자 혜택</h2>
+          <p class="band__note">사전 프로그램 무료 · 수료증 발급</p>
+        </div>
+        <ul class="band__list">
+          <li><b>상금 지급</b><span>규모 추후 공지</span></li>
+          <li><b>투자자 연결</b><span>비즈니스톤 입상팀</span></li>
+          <li><b>창업 특강</b><span>기획자·창업가 경험</span></li>
+          <li><b>AI 교육</b><span>기획·디자인에 활용</span></li>
+          <li><b>1:1 피드백</b><span>발표 전 중간 점검</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 일정 -->
+  <section class="section" id="schedule">
+    <div class="wrap">
+      <h2 class="section__title" data-reveal>일정</h2>
+      <p class="section__lead" data-reveal>신청부터 본행사까지 약 한 달. 밤샘 개발 없이 사전 프로그램으로 준비합니다.</p>
+      <div class="timeline" id="timeline">
+        <div class="timeline__track" aria-hidden="true"><span class="timeline__fill" id="timeline-fill"></span></div>
+        <ol class="timeline__list">
+          <li class="tl" data-date="2026-10-12"><span class="tl__dot" aria-hidden="true"></span><p class="tl__date">10.12(월)</p><p class="tl__what">신청 시작</p></li>
+          <li class="tl" data-date="2026-10-22"><span class="tl__dot" aria-hidden="true"></span><p class="tl__date">10.22(목)</p><p class="tl__what">특강</p><p class="tl__sub">저녁 · 한동대</p></li>
+          <li class="tl" data-date="2026-10-25"><span class="tl__dot" aria-hidden="true"></span><p class="tl__date">10.25(일)</p><p class="tl__what">신청 마감</p></li>
+          <li class="tl" data-date="2026-10-28"><span class="tl__dot" aria-hidden="true"></span><p class="tl__date">10.28(수)</p><p class="tl__what">서류 결과 발표</p></li>
+          <li class="tl" data-date="2026-11-03"><span class="tl__dot" aria-hidden="true"></span><p class="tl__date">11.3(화)</p><p class="tl__what">AI 교육</p><p class="tl__sub">저녁 · 온라인</p></li>
+          <li class="tl" data-date="2026-11-05"><span class="tl__dot" aria-hidden="true"></span><p class="tl__date">11.5(목)</p><p class="tl__what">중간 결과물 제출</p></li>
+          <li class="tl" data-date="2026-11-08"><span class="tl__dot" aria-hidden="true"></span><p class="tl__date">11.8(일)</p><p class="tl__what">중간 피드백 회신</p></li>
+          <li class="tl" data-date="2026-11-12"><span class="tl__dot" aria-hidden="true"></span><p class="tl__date">11.12(목)</p><p class="tl__what">본행사</p><p class="tl__sub">18:00 · 다시 육거리</p></li>
+        </ol>
+      </div>
+      <p class="fineprint" data-reveal>일정은 바뀔 수 있으며, 바뀌면 신청자에게 개별로 안내합니다.</p>
+    </div>
+  </section>
+
+  <!-- 사전 프로그램 -->
+  <section class="section" id="program">
+    <div class="wrap">
+      <h2 class="section__title" data-reveal>사전 프로그램 <span class="title-tag">무료</span></h2>
+      <p class="section__lead" data-reveal>발표 준비를 돕는 세 가지 프로그램입니다. 참여자에게는 모두 <strong>수료증</strong>을 발급합니다.</p>
+      <div class="grid grid--3" data-stagger>
+        <article class="card program">
+          <p class="label">10.22(목) 저녁 · 한동대</p>
+          <h3 class="card__title">특강</h3>
+          <p class="program__one">강연 60분 + 네트워킹·질의응답 30분</p>
+          <ul class="chips">
+            <li class="chip">선택 참여</li>
+            <li class="chip">신청 전에도 참석 가능</li>
+          </ul>
+          <details class="more">
+            <summary>다루는 내용</summary>
+            <div class="more__body">
+              <ul class="dots">
+                <li>기획자·창업가의 경험</li>
+                <li>AI 전환(AX)을 겪은 기업 사례</li>
+                <li>취업 준비생에게 필요한 AI 역량</li>
+              </ul>
+            </div>
+          </details>
+        </article>
+        <article class="card program">
+          <p class="label">11.3(화) 저녁 · 온라인</p>
+          <h3 class="card__title">AI 교육</h3>
+          <p class="program__one">교육 1시간 + 질의응답 30분</p>
+          <ul class="chips">
+            <li class="chip">실습형</li>
+            <li class="tbd">참여 방식 추후 공지</li>
+          </ul>
+          <details class="more">
+            <summary>다루는 내용</summary>
+            <div class="more__body">
+              <ul class="dots">
+                <li>기획과 디자인을 구체화하는 AI 활용</li>
+                <li>MCP·스킬 자동화</li>
+              </ul>
+            </div>
+          </details>
+        </article>
+        <article class="card program">
+          <p class="label">11.5(목) 제출 · 11.8(일) 회신</p>
+          <h3 class="card__title">중간 피드백</h3>
+          <p class="program__one">발표 전 심사위원과 방향 점검</p>
+          <ul class="chips">
+            <li class="chip">두 트랙 모두</li>
+            <li class="tbd">방식 추후 공지</li>
+          </ul>
+          <details class="more">
+            <summary>진행 방식</summary>
+            <div class="more__body">
+              <p>11.5(목)까지 중간 결과물을 내면 심사위원이 방향 점검과 보완점 컨설팅을 해 드립니다. 피드백 방식은 추후 공지합니다.</p>
+            </div>
+          </details>
+        </article>
+      </div>
+      <p class="fineprint" data-reveal>연사·강사는 확정되는 대로 공지합니다.</p>
+    </div>
+  </section>
+</div>
+
+<div class="divider divider--cream-to-navy" aria-hidden="true">
+  <svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M-480 30 Q-420 12 -360 30 T-240 30 T-120 30 T0 30 T120 30 T240 30 T360 30 T480 30 T600 30 T720 30 T840 30 T960 30 T1080 30 T1200 30 T1320 30 T1440 30 T1560 30 T1680 30 T1800 30 T1920 30 L1920 60 L-480 60 Z"/></svg>
+</div>
+
+<div class="zone zone--navy">
+
+  <!-- 평가 기준과 시상 -->
+  <section class="section" id="evaluation">
+    <div class="wrap">
+      <h2 class="section__title" data-reveal>평가 기준과 시상</h2>
+      <p class="section__lead" data-reveal>기준을 미리 공개합니다. 항목을 누르면 심사 질문을 볼 수 있습니다. <span class="tbd">배점 추후 공지</span></p>
+
+      <div class="tabs" data-reveal>
+        <div class="tabs__list" role="tablist" aria-label="트랙 선택">
+          <button class="tabs__tab" role="tab" id="tab-idea" aria-controls="panel-idea" aria-selected="true">아이디어톤</button>
+          <button class="tabs__tab" role="tab" id="tab-biz" aria-controls="panel-biz" aria-selected="false" tabindex="-1">비즈니스톤</button>
+        </div>
+
+        <div class="tabs__panels">
+          <div class="tabs__panel is-active" role="tabpanel" id="panel-idea" aria-labelledby="tab-idea" tabindex="0">
+            <ol class="criteria card">
+              <li><details><summary>문제 정의 (글로벌)</summary><p>대상이 구체적인가. 인터뷰·관찰·자료 같은 근거가 있는가</p></details></li>
+              <li><details><summary>해결책의 적합성과 창의성</summary><p>정의한 문제를 실제로 푸는가. 기존 방법과 무엇이 다른가</p></details></li>
+              <li><details><summary>실현 가능성</summary><p>포항에서 시범 적용할 수 있는가. 필요한 자원과 협력처를 알고 있는가</p></details></li>
+              <li><details><summary>발표 전달력</summary><p>정해진 시간 안에 핵심을 전달하는가. 질의에 답하는가</p></details></li>
+              <li><details><summary>AI 활용</summary><p>해결책이나 준비 과정에 AI를 의미 있게 썼는가 <span class="tbd">반영 방식 추후 공지</span></p></details></li>
+            </ol>
+            <div class="award">
+              <p class="award__title">시상</p>
+              <ul class="award__list">
+                <li>입상팀 상금 지급 <span class="tbd">규모 추후 공지</span></li>
+              </ul>
+              <p class="award__tie"><b>동점이면</b> '문제 정의' 점수가 높은 팀이 앞섭니다.</p>
+            </div>
+          </div>
+
+          <div class="tabs__panel" role="tabpanel" id="panel-biz" aria-labelledby="tab-biz" tabindex="0">
+            <ol class="criteria card">
+              <li><details><summary>문제 및 시장 정의</summary><p>목표 시장과 고객이 명확한가. 국내 시장과의 차이를 이해하는가</p></details></li>
+              <li><details><summary>솔루션과 차별성</summary><p>경쟁 제품 대비 강점이 분명한가</p></details></li>
+              <li><details><summary>비즈니스 모델</summary><p>누가, 왜, 얼마를 내는지 설명되는가</p></details></li>
+              <li><details><summary>글로벌 진출 전략</summary><p>진출 방식, 단계별 계획, 현지 제약(법·유통·언어)을 검토했는가</p></details></li>
+              <li><details><summary>팀 역량과 진행 수준</summary><p>실행할 수 있는 팀인가. 지금까지 만든 것이 있는가</p></details></li>
+              <li><details><summary>IR 발표와 질의응답</summary><p>투자자에게 설명할 수 있는 수준인가</p></details></li>
+            </ol>
+            <div class="award">
+              <p class="award__title">시상</p>
+              <ul class="award__list">
+                <li>입상팀 상금 지급 <span class="tbd">규모 추후 공지</span></li>
+                <li>입상팀 모두 투자자 연결</li>
+              </ul>
+              <p class="award__tie"><b>동점이면</b> '글로벌 진출 전략' 점수가 높은 팀이 앞섭니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 신청 방법 -->
+  <section class="section" id="apply">
+    <div class="wrap">
+      <h2 class="section__title" data-reveal>신청 방법</h2>
+      <p class="section__lead" data-reveal>온라인 신청서 하나로 두 트랙을 모두 받습니다. 한국어·영어로 작성할 수 있습니다.</p>
+      <div class="grid grid--2" data-stagger>
+        <article class="card submit">
+          <h3 class="card__title">아이디어톤</h3>
+          <dl class="stats stats--2">
+            <div><dt>신청서</dt><dd>필수</dd></div>
+            <div><dt>첨부 자료</dt><dd>없음</dd></div>
+          </dl>
+          <p class="submit__tip">완성된 해결책이 아니어도 괜찮습니다. 직접 겪었거나 들은 사례가 있다면 함께 적어 주세요.</p>
+          <details class="more">
+            <summary>신청서 작성 항목</summary>
+            <div class="more__body">
+              <p>주제 부문, 아이템명, 해결하고 싶은 문제(3줄 이상), 해결 아이디어, 지원 동기, 행사에서 얻고 싶은 것</p>
+            </div>
+          </details>
+        </article>
+        <article class="card submit">
+          <h3 class="card__title">비즈니스톤</h3>
+          <dl class="stats stats--2">
+            <div><dt>신청서</dt><dd>필수</dd></div>
+            <div><dt>첨부 자료</dt><dd>PDF 1종</dd></div>
+          </dl>
+          <p class="submit__tip">사업계획서(요약 1쪽 + 본문 4쪽 이내) 또는 발표자료(15장 이내) 중 하나를 냅니다.</p>
+          <a class="btn btn--sm btn--light submit__btn" data-config="TEMPLATE_URL" data-empty-text="양식 준비 중">양식 확인하기</a>
+          <details class="more">
+            <summary>작성 항목·파일 규칙</summary>
+            <div class="more__body">
+              <ul class="dots">
+                <li><b>신청서</b> 아이템명, 한 줄 소개, 카테고리, 목표 시장, 현재 단계, 문제와 솔루션 요약(5줄 내외), 지원 동기, 행사에서 얻고 싶은 것</li>
+                <li><b>파일명</b> 비즈니스톤_팀명_아이템명</li>
+                <li>기존 발표자료를 고쳐서 내도 됩니다. 추가 자료 제출 방식은 추후 공지합니다.</li>
+                <li>선발되면 데모데이 포스터 양식을 따로 보냅니다.</li>
+              </ul>
+            </div>
+          </details>
+        </article>
+      </div>
+      <div class="apply-cta" data-reveal>
+        <a class="btn btn--lg" data-config="FORM_URL" data-empty-text="신청 준비 중">신청서 작성하기</a>
+        <p class="apply-cta__when">10.12(월) ~ 10.25(일) · 약 5~10분</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 본행사 당일 -->
+  <section class="section" id="day">
+    <div class="wrap">
+      <h2 class="section__title" data-reveal>본행사 당일</h2>
+      <p class="section__lead" data-reveal>11.12(목) 18:00~21:00 · 포항 다시 육거리 <span class="note">변경될 수 있음</span></p>
+      <ol class="grid grid--4 flow" data-stagger>
+        <li><span class="flow__step">18:00</span><span class="flow__what">접수 · 포스터 설치</span></li>
+        <li><span class="flow__step">1부</span><span class="flow__what">개회 · 네트워킹 · 포스터 세션</span></li>
+        <li><span class="flow__step">2부</span><span class="flow__what">아이디어톤 발표 · IR 피칭</span></li>
+        <li><span class="flow__step">~21:00</span><span class="flow__what">시상 · 폐회</span></li>
+      </ol>
+      <p class="fineprint" data-reveal><span class="tbd">세부 시간표 추후 공지</span> 발표 순서는 참가 팀 확정 후 안내합니다. 현장 사진·영상은 행사 기록과 홍보에 쓰입니다.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="wrap wrap--narrow">
+      <h2 class="section__title" data-reveal>자주 묻는 질문</h2>
+      <div class="faq" data-stagger>
+        <details>
+          <summary>아이템이 없어도 참가할 수 있나요?</summary>
+          <div class="faq__a"><p>네. 아이디어톤은 포항에서 느낀 불편과 해결 아이디어만 있으면 됩니다.</p></div>
+        </details>
+        <details>
+          <summary>혼자 참가해도 되나요?</summary>
+          <div class="faq__a"><p>네. 개인 참가도 되고, 팀은 대표자 포함 최대 5명입니다.</p></div>
+        </details>
+        <details>
+          <summary>한동대 학생이 아니어도 되나요?</summary>
+          <div class="faq__a"><p>네. 포항과 글로벌에 관심 있는 한국인·외국인 청년이면 누구나 신청할 수 있습니다. 신청서에 학교나 회사 등 소속을 적습니다.</p></div>
+        </details>
+        <details>
+          <summary>외국인도 참가할 수 있나요?</summary>
+          <div class="faq__a"><p>네. 신청서는 한국어·영어로 쓸 수 있습니다. 본행사 통역은 외국인 참가 규모를 보고 정해 안내합니다.</p></div>
+        </details>
+        <details>
+          <summary>두 트랙에 모두 신청할 수 있나요?</summary>
+          <div class="faq__a"><p>아니요. 트랙 하나만 골라 신청합니다.</p></div>
+        </details>
+        <details>
+          <summary>사전 프로그램은 꼭 참석해야 하나요?</summary>
+          <div class="faq__a"><p>참석을 권장합니다. 발표 준비에 도움이 되도록 구성했고, 참여자에게는 모두 수료증을 발급합니다.</p></div>
+        </details>
+      </div>
+      <p class="faq__contact" data-reveal>그 밖의 문의 <a data-config="CONTACT">openharbor2026@gmail.com</a></p>
+    </div>
+  </section>
+
+  <!-- English Summary -->
+  <section class="section" id="english" lang="en">
+    <div class="wrap wrap--narrow">
+      <h2 class="section__title" data-reveal>English Summary</h2>
+      <p class="section__lead" data-reveal>A hackathon in Pohang for Korean and international young people. Join with just an idea, or pitch a product you are building.</p>
+      <ul class="grid grid--2 en-facts" data-stagger>
+        <li><b>Main event</b><span>Thu, Nov 12 · 6–9 PM · Dasi Yukgeori, Pohang (subject to change)</span></li>
+        <li><b>Apply</b><span>Oct 12 – Oct 25 via Google Form (Korean or English). Results Oct 28</span></li>
+        <li><b>Ideathon</b><span>Up to 10 teams. An idea for a problem foreign residents or visitors face in Pohang</span></li>
+        <li><b>Businessthon</b><span>Up to 6 teams by document review. Any field, local or global problem</span></li>
+      </ul>
+      <details class="more more--dark" data-reveal>
+        <summary>More details</summary>
+        <div class="more__body">
+          <dl class="summary">
+            <div><dt>Who</dt><dd>Korean and international young people interested in Pohang and global issues. Individuals or teams of up to 5</dd></div>
+            <div><dt>Prizes</dt><dd>Cash prizes for winning teams in both tracks (amounts to be announced), plus investor connections for Businessthon winners</dd></div>
+            <div><dt>Free programs</dt><dd>Special lecture (Oct 22), online AI workshop (Nov 3), mid-point feedback (Nov 5–8)</dd></div>
+            <div><dt>Submission</dt><dd>Businessthon teams submit a business plan (1-page summary + up to 4 pages) or a pitch deck (up to 15 slides) as a PDF</dd></div>
+            <div><dt>Evaluation</dt><dd>Criteria for both tracks are shared in advance in the evaluation section above</dd></div>
+            <div><dt>Contact</dt><dd><a data-config="CONTACT">openharbor2026@gmail.com</a></dd></div>
+          </dl>
+        </div>
+      </details>
+    </div>
+  </section>
+</div>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <p>주관 한동대학교 랩인사이트 · 지원 글로컬대학30 HI Alliance</p>
+    <p>문의 <a data-config="CONTACT">openharbor2026@gmail.com</a></p>
+  </div>
+</footer>
+
+<div class="mobile-cta" id="mobile-cta">
+  <a class="btn btn--block" data-config="FORM_URL" data-empty-text="신청 준비 중">신청하기</a>
+</div>
+</body>
+</html>
