@@ -1,6 +1,6 @@
 const CONFIG = {
   FORM_URL: 'https://forms.gle/Xu1t3ecmrYcabD8x8', // 구글폼 신청 링크
-  TEMPLATE_URL: 'https://drive.google.com/drive/folders/1yAvbxRp_4lG6GvQeoKvYS2y9d3G3etGCAj7aj5HHBLkqQBuKydgHshc_lJZCt4ZDq8URAIHl?usp=sharing', // 사업계획서·발표자료 양식 링크
+  TEMPLATE_URL: 'https://drive.google.com/drive/folders/1yP8RwNqN8BOABiFggjJmJ1x-6mqCjSlS?usp=drive_link', // 사업계획서·발표자료 양식 링크
   CONTACT: 'openharbor2026@gmail.com',
   DEADLINE: '2026-10-25T23:59:59+09:00',
 };
