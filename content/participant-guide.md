@@ -64,7 +64,7 @@ OPEN HARBOR 2026은 포항에서 한국인과 외국인 청년이 함께 문제�
 | 10월 12일(월) | 참가 신청 시작 |
 | 10월 26일(월) | 특강 1 (오프라인) |
 | 10월 28일(수) | 참가 신청 마감 |
-| 10월 28일(수) 저녁 | 특강 2 (온라인) |
+| 10월 마지막 주 저녁 | 특강 2 · AI·AX 특강 (온라인, 일정 추후 공지) |
 | 10월 30일(금)까지 | 서류 결과 개별 안내 |
 | 11월 첫째 주 | AI 교육 (1~2회, 참가자 대상 별도 공지) |
 | 11월 12일(목) 18:00~21:00 | 본행사 (다시 육거리) |
@@ -78,7 +78,8 @@ OPEN HARBOR 2026은 포항에서 한국인과 외국인 청년이 함께 문제�
 ### 사전 프로그램 (무료)
 
 - 특강 1 · 창업 · 팀빌딩 특강: 10월 26일(월) · 오프라인. 연사: 정윤섭 대표 (팀빌딩 플랫폼 비긴메이트). 시간 추후 공지
-- 특강 2 · 생성형 AI · AX 특강: 10월 28일(수) 저녁 18시 또는 19시 시작 · 온라인 · 60~90분. 연사: 김동환 대표 (생성형 AI 기업 포티투마루)
+- 특강 2 · AI · AX 특강: 10월 마지막 주 저녁 · 온라인. 날짜·연사는 확정되는 대로 공지
+  - (확정 전 보류) 10월 28일(수) 저녁 18시 또는 19시 시작 · 60~90분. 연사: 김동환 대표 (생성형 AI 기업 포티투마루)
 - AI 활용 실습 교육: 11월 첫째 주 · 1~2회. 참가자 대상으로 일정을 별도 공지합니다.
 
 추가 프로그램은 확정되는 대로 공지합니다. 사전 프로그램 참여자에게는 모두 수료증을 발급합니다.
@@ -175,7 +176,7 @@ OPEN HARBOR 2026 is a hackathon in Pohang where Korean and international young p
 - Ideathon: Up to 10 teams. Propose a solution to a problem that holds Pohang back as a growing global city, such as what foreign residents or visitors face
 - Businessthon: Up to 6 teams selected by document review. Any field, solving a local or global problem
 - Application: Oct 12 – Wednesday, October 28 via Google Form (Korean or English). Results announced by Friday, October 30
-- Special Talk 1: Oct 26 (Mon), offline · Special Talk 2: Oct 28 (Wed) evening, online · AI Workshop: first week of November (for participants)
+- Special Talk 1: Oct 26 (Mon), offline · Special Talk 2 (AI · AX): last week of October, evening, online (details TBA) · AI Workshop: first week of November (for participants)
 - All teams in both tracks receive pre-event feedback and 1:1 consulting before the main event.
 - Prizes: Ideathon KRW 500,000 / 300,000 / 100,000 (3 teams). Businessthon KRW 1,000,000 + investor connection / 500,000 + investor connection / 300,000 (2 teams). 9 teams in total
 - Submission: Businessthon teams submit a business plan (1-page summary + up to 4 pages) or a pitch deck (up to 15 slides) as a PDF
