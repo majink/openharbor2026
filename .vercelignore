@@ -1,0 +1,9 @@
+# 사이트 파일만 배포한다. 작업 문서(CLAUDE.md, content/ 등)는 공개하지 않는다
+/*
+!index.html
+!style.css
+!main.js
+!assets
+!robots.txt
+!sitemap.xml
+!vercel.json
