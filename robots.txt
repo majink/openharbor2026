@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wecanscaleup.com/sitemap.xml
+Sitemap: https://www.wecanscaleup.com/sitemap.xml

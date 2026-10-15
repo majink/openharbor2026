@@ -8,7 +8,7 @@
 - 빌드 도구·프레임워크 없이 정적 파일 3개: `index.html`, `style.css`, `main.js`
 - 외부 의존성은 Google Fonts만 사용 (Jua, Fredoka, IBM Plex Sans KR)
 - 이미지·일러스트는 `assets/`의 SVG 사용. 외부 이미지 URL 금지
-- 배포: GitHub `majink/openharbor2026`(배포용)에 푸시하면 Vercel이 배포한다. 대표 도메인은 https://wecanscaleup.com (canonical·OG·사이트맵 모두 이 주소). `.vercelignore`로 `index.html`, `style.css`, `main.js`, `assets/`, `robots.txt`, `sitemap.xml`만 공개하고, 헤더는 `vercel.json`에 둔다. `majink/openharbor2026_private`(예비)에도 같은 내용을 푸시한다. 이전 Netlify 사이트(https://openharbor2026.netlify.app)용 `_headers`는 Netlify 전용이다. 구글 폰트 CSS는 첫 화면을 막지 않게 비동기로 불러온다. 경로는 모두 상대경로로 작성 (OG 이미지·URL만 절대경로)
+- 배포: GitHub `majink/openharbor2026`(배포용)에 푸시하면 Vercel이 배포한다. 대표 도메인은 https://www.wecanscaleup.com (canonical·OG·사이트맵 모두 이 주소). `.vercelignore`로 `index.html`, `style.css`, `main.js`, `assets/`, `robots.txt`, `sitemap.xml`만 공개하고, 헤더는 `vercel.json`에 둔다. `majink/openharbor2026_private`(예비)에도 같은 내용을 푸시한다. 이전 Netlify 사이트(https://openharbor2026.netlify.app)용 `_headers`는 Netlify 전용이다. 구글 폰트 CSS는 첫 화면을 막지 않게 비동기로 불러온다. 경로는 모두 상대경로로 작성 (OG 이미지·URL만 절대경로)
 - 링크·연락처 등 바뀔 수 있는 값은 `main.js` 맨 위 CONFIG에 모아 두고, HTML에서는 `data-config` 속성으로 주입한다
 
 ```js
