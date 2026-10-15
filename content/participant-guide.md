@@ -9,13 +9,17 @@ OPEN HARBOR 2026은 포항에서 한국인과 외국인 청년이 함께 문제�
 - 본행사: 2026년 11월 12일(목) 18:00~21:00, 포항 다시 육거리 (시간은 변경될 수 있음)
 - 참가 대상: 포항과 글로벌에 관심 있는 한국인·외국인 청년. 개인 또는 팀(대표자 포함 최대 5명)
 - 트랙: 아이디어톤(최대 10팀), 비즈니스톤(서류 심사로 최대 6팀)
-- 상금: 트랙별 입상팀에 상금 지급 (규모 추후 공지). 비즈니스톤 입상팀은 투자자 연결
+- 상금: 아이디어톤 1등 50만원·2등 30만원·3등(3팀) 10만원, 비즈니스톤 1등 100만원·2등 50만원·3등(2팀) 30만원. 비즈니스톤 1·2등은 투자자 연결
 - 사전 프로그램: 특강, AI 교육, 중간 피드백 (무료)
 - 신청 기간: 10월 12일(월) ~ 10월 25일(일)
 - 서류 결과 발표: 10월 28일(수)
 - 신청 방법: 온라인 신청서(구글폼, 한국어·영어). 작성 시간 약 5~10분
 
 본 행사는 글로컬대학30 「2026 글로벌도시 구축 프로젝트」의 일환으로 열립니다.
+
+- 주최: 글로컬대학30
+- 주관: 탈환
+- 참관/후원: CPEE, 브리지임팩트, 몬드라곤대학교 서울랩, 다솜엑스 (이 순서대로 표기)
 
 ## 2. 두 개의 트랙과 주제
 
@@ -27,7 +31,7 @@ OPEN HARBOR 2026은 포항에서 한국인과 외국인 청년이 함께 문제�
 - 규모: 최대 10팀
 - 신청 시 제출: 신청서(문제와 해결 아이디어)
 - 본행사: 아이디어 발표
-- 혜택: 상금, 심사위원 피드백
+- 혜택: 상금(1등 50만원), 심사위원 피드백
 - 주제: 포항이 글로벌도시로 확장되는 과정에서 어려움이 생기는 문제를 찾아 해결 방안을 제안합니다. 특히 외국인이 겪는 불편에 주목해 아래 두 부문 중 하나를 고릅니다.
   - 부문 1. 외국인 정주환경: 포항에 살고 있는 외국인(유학생·연구자·근로자)의 생활 환경. 예) 다국어 생활정보, 병원·교통 이용, 일자리·창업 지원
   - 부문 2. 외국인 방문객 환경: 포항을 찾는 외국인 방문객의 이용 환경. 예) 관광 안내, 지역 상권 연계
@@ -39,7 +43,7 @@ OPEN HARBOR 2026은 포항에서 한국인과 외국인 청년이 함께 문제�
 - 규모: 서류 심사로 최대 6팀
 - 신청 시 제출: 신청서 + 사업계획서 또는 발표자료(PDF)
 - 본행사: 데모데이 — 포스터 전시와 IR 피칭
-- 혜택: 상금, 입상팀 투자자 연결, 전문가 개별 피드백
+- 혜택: 상금(1등 100만원), 1·2등 투자자 연결, 전문가 개별 피드백
 - 주제: 포항 등 지역의 문제나 글로벌 문제를 해결하는 아이템이면 분야에 제한이 없습니다.
 - 목표 시장은 국내, 해외, 국내외 모두 가능합니다. 국내 시장 아이템은 앞으로 글로벌로 확장할 계획을 함께 보여 주세요.
 - 아이디어·기획, MVP 개발 중, 서비스 출시, 매출 발생 단계 모두 참가할 수 있습니다.
@@ -55,9 +59,10 @@ OPEN HARBOR 2026은 포항에서 한국인과 외국인 청년이 함께 문제�
 |---|---|
 | 10월 12일(월) | 참가 신청 시작 |
 | 10월 25일(일) | 참가 신청 마감 |
+| 10월 26일(월) | 특강 1 · 정윤섭 대표 (오프라인) |
 | 10월 28일(수) | 서류 결과 발표 |
-| 10월 마지막 주 주중 저녁 | 특강 (한동대) |
-| 11월 첫째 주 주중 저녁 | AI 교육 (온라인) |
+| 10월 28일(수) 18:00 또는 19:00 | 특강 2 · 김동환 대표 (온라인) |
+| 11월 첫째 주 | AI 교육 1~2회 (온라인, 일정은 참가자에게 공지) |
 | 11월 5일(목) | 중간 결과물 제출 |
 | 11월 8일(일) | 중간 피드백 회신 |
 | 11월 12일(목) 18:00~21:00 | 본행사 (다시 육거리) |
@@ -66,13 +71,15 @@ OPEN HARBOR 2026은 포항에서 한국인과 외국인 청년이 함께 문제�
 
 ### 사전 프로그램 (무료)
 
-- 특강 (선택 참여): 한동대 오프라인. 강연과 네트워킹·질의응답 (60분 + 30분)
-  - 기획자·창업가의 경험, AI 전환(AX)을 겪은 기업 사례, 취업 준비생에게 필요한 AI 역량
-- AI 교육 (참여 방식 추후 공지): 온라인. 교육 1시간, 질의응답 30분
+- 특강 (선택 참여): 두 번 진행
+  - 특강 1: 10월 26일(월), 정윤섭 대표(비긴메이트 창업자, 한국열린사이버대학교 스마트AI경영학과 교수, 4개 부처 창업지원사업 평가위원), 한동대 오프라인. 강연과 네트워킹·질의응답 (60분 + 30분). 시간 추후 공지
+  - 특강 2: 10월 28일(수) 18:00 또는 19:00 시작, 김동환 대표(AI 기업 포티투마루 대표, 산업·공공 AX 전략 강연), 온라인. 60~90분
+  - AI 전환(AX)을 겪은 기업 사례, 기획자·창업가의 경험, 취업 준비생에게 필요한 AI 역량
+- AI 교육: 11월 첫째 주에 1~2회, 온라인. 교육 1시간, 질의응답 30분. 세부 일정은 참가자에게 공지
   - 기획과 디자인을 구체화하는 AI 활용, MCP·스킬 자동화 (실습형 수업)
 - 중간 피드백 (방식 추후 공지): 발표 전 심사위원과의 방향 점검과 보완점 컨설팅
 
-연사와 강사는 확정되는 대로 공지합니다. 사전 프로그램 참여자에게는 모두 수료증을 발급합니다.
+사전 프로그램 참여자에게는 모두 수료증을 발급합니다.
 
 ## 4. 평가 기준과 시상
 
@@ -97,9 +104,8 @@ OPEN HARBOR 2026은 포항에서 한국인과 외국인 청년이 함께 문제�
 
 ### 시상
 
-- 아이디어톤: 입상팀에 상금 지급
-- 비즈니스톤: 입상팀에 상금 지급, 입상팀 모두 투자자 연결 자리 제공
-- 시상 규모와 팀별 상금은 추후 공지합니다.
+- 아이디어톤: 1등 50만원, 2등 30만원, 3등(3팀) 10만원
+- 비즈니스톤: 1등 100만원 + 투자자 연결, 2등 50만원 + 투자자 연결, 3등(2팀) 30만원
 
 동점이면 아이디어톤은 '문제 정의', 비즈니스톤은 '글로벌 진출 전략' 점수가 높은 팀이 앞섭니다.
 
@@ -163,8 +169,8 @@ OPEN HARBOR 2026 is a hackathon in Pohang where Korean and international young p
 - Who can apply: Korean and international young people interested in Pohang and global issues. Individuals or teams of up to 5
 - Ideathon: Up to 10 teams. Propose a solution to a problem that holds Pohang back as a growing global city, such as what foreign residents or visitors face
 - Businessthon: Up to 6 teams selected by document review. Any field, solving a local or global problem
-- Prizes: Cash prizes for winning teams in both tracks (amounts to be announced), plus investor connections for Businessthon winners
-- Free programs: Special lecture (last week of Oct, weekday evening), online AI workshop (first week of Nov, weekday evening), mid-point feedback (Nov 5–8)
+- Prizes: Ideathon 1st KRW 500,000, 2nd KRW 300,000, 3rd KRW 100,000 (3 teams). Businessthon 1st KRW 1,000,000 and 2nd KRW 500,000 with investor connections, 3rd KRW 300,000 (2 teams)
+- Free programs: Special lectures (Oct 26 offline, Oct 28 online), online AI workshop (1–2 sessions in the first week of Nov), mid-point feedback (Nov 5–8)
 - Application: Oct 12 – Oct 25 via Google Form (Korean or English). Results announced Oct 28
 - Submission: Businessthon teams submit a business plan (1-page summary + up to 4 pages) or a pitch deck (up to 15 slides) as a PDF
 - Evaluation: Criteria for both tracks are listed in section 4 and are shared in advance
