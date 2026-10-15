@@ -315,13 +315,6 @@
           </details>
         </article>
       </div>
-      <div class="common" data-reveal>
-        <div class="common__head">
-          <p class="label">두 트랙 공통 혜택</p>
-          <h3 class="common__title">사전 피드백 &amp; 1:1 컨설팅</h3>
-        </div>
-        <p class="common__text">아이디어톤·비즈니스톤 <b>모든 참가팀</b>은 본행사 발표 전에 심사위원·전문가에게 사전 피드백과 1:1 컨설팅을 받습니다. 준비 중인 방향을 함께 점검하고 보완점을 찾아 발표를 준비합니다.</p>
-      </div>
     </div>
   </section>
 
@@ -369,7 +362,7 @@
     <div class="wrap">
       <h2 class="section__title" data-reveal>사전 프로그램 <span class="title-tag">무료</span></h2>
       <p class="section__lead" data-reveal>발표 준비를 돕는 무료 프로그램입니다. 참여자에게는 모두 <strong>수료증</strong>을 발급합니다.</p>
-      <div class="grid grid--3" data-stagger>
+      <div class="grid grid--2 programs" data-stagger>
         <article class="card program">
           <p class="label">10.26(월) · 오프라인</p>
           <h3 class="card__title"><span class="program__count">특강 1</span> 창업 · 팀빌딩 특강</h3>
@@ -396,6 +389,15 @@
             <p class="speakers__bio">일정은 참가자에게 별도 공지합니다</p>
           </div>
           <ul class="chips"><li class="chip">실습형</li></ul>
+        </article>
+        <article class="card program">
+          <p class="label">본행사 발표 전 · 두 트랙 모두</p>
+          <h3 class="card__title"><span class="program__count">피드백</span> 중간 피드백</h3>
+          <div class="speakers__card speakers__card--benefit">
+            <p class="speakers__who">사전 피드백 &amp; 1:1 컨설팅 <span class="benefit-tag">모든 참가팀 혜택</span></p>
+            <p class="speakers__bio">심사위원·전문가와 준비 중인 방향을 점검하고 보완점을 찾습니다</p>
+          </div>
+          <ul class="chips"><li class="chip">무료</li><li class="tbd">일정 추후 공지</li></ul>
         </article>
       </div>
       <p class="fineprint" data-reveal>추가 프로그램은 확정되는 대로 공지합니다.</p>
@@ -595,11 +597,29 @@
 
 <footer class="footer">
   <div class="wrap footer__inner">
-    <dl class="credits">
-      <div><dt>주최</dt><dd>글로컬대학30</dd></div>
-      <div><dt>주관</dt><dd>탈환 위캔스케일업 2026</dd></div>
-      <div><dt>참관/후원</dt><dd><span>CPEE</span><span>브리지임팩트</span><span>몬드라곤대학교 서울랩</span><span>다솜엑스</span></dd></div>
-    </dl>
+    <!-- 주최 > 주관 > 참관/후원 순서 고정 -->
+    <div class="partners" aria-label="주최·주관·후원">
+      <div class="partners__group">
+        <p class="partners__role">주최</p>
+        <div class="partners__logos"><span class="partners__word">글로컬대학30</span></div>
+      </div>
+      <div class="partners__group">
+        <p class="partners__role">주관</p>
+        <div class="partners__logos"><span class="logo-with-name"><img class="logo-thc" src="assets/logos/thc.png" alt="탈환" width="339" height="160" loading="lazy"><span class="partners__word partners__word--sm">위캔스케일업 2026</span></span></div>
+      </div>
+      <div class="partners__group partners__group--wide">
+        <p class="partners__role">참관/후원</p>
+        <div class="partners__logos">
+          <span class="partners__word" lang="en">CPEE</span>
+          <img class="logo-bridge" src="assets/logos/bridgeimpact.png" alt="브리지임팩트" width="668" height="160" loading="lazy">
+          <span class="logo-pair" role="img" aria-label="몬드라곤대학교 서울랩">
+            <img src="assets/logos/mondragon-mu.png" alt="" width="206" height="200" loading="lazy">
+            <img src="assets/logos/mondragon-mta.png" alt="" width="233" height="200" loading="lazy">
+          </span>
+          <img class="logo-dasom" src="assets/logos/dasomx.png" alt="다솜엑스" width="116" height="128" loading="lazy">
+        </div>
+      </div>
+    </div>
     <p class="footer__contact">문의 <a data-config="CONTACT">openharbor2026@gmail.com</a></p>
   </div>
 </footer>
