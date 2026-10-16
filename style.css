@@ -407,7 +407,10 @@ section[id] { scroll-margin-top: calc(var(--bar-h) + 8px); }
 }
 .speakers { display: flex; flex-direction: column; gap: 8px; }
 .speakers__card { padding: 12px 14px; border-radius: 14px; background: var(--tint); display: flex; flex-direction: column; gap: 2px; }
-.program .card__title .program__count { margin: 0 4px 0 0; }
+/* 꼬리표(특강 1 · 주제)는 위 줄, 강의 제목은 아래 줄 */
+.program .card__title { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; }
+.program .card__title .program__count { margin: 0; vertical-align: 0; }
+.program__topic { word-break: keep-all; }
 .program > .chips { margin-top: auto; }
 /* 중간 피드백: 모든 참가팀 혜택이라 살짝 강조 */
 .speakers__card--benefit { background: #FFF3C4; }
@@ -647,6 +650,7 @@ section[id] { scroll-margin-top: calc(var(--bar-h) + 8px); }
   .stats > div { flex-direction: row; justify-content: space-between; align-items: baseline; gap: 12px; padding: 8px 12px; }
   .stats dd { text-align: right; }
   .tl { grid-template-columns: 84px minmax(0, 1fr); }
+  .program .card__title { font-size: var(--fs-xl); }
 }
 
 @media (prefers-reduced-motion: reduce) {
