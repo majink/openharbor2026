@@ -573,7 +573,7 @@ section[id] { scroll-margin-top: calc(var(--bar-h) + 8px); }
   .partners__group--wide .partners__logos img { max-width: 100%; height: auto; max-height: 40px; }
   .partners__group--wide .logo-bridge { width: 128px; }
   .partners__group--wide .logo-gsn { width: 150px; }
-  .partners__group--wide .logo-hbm { width: 138px; }
+  .partners__group--wide .logo-hbm { width: 134px; }
   .partners__group--wide .logo-pair img { height: 36px; width: auto; }
   .partners__group--wide .logo-dasom { height: 40px; width: auto; }
 }
