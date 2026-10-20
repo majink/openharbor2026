@@ -23,7 +23,7 @@ OPEN HARBOR 2026은 포항에서 한국인과 외국인 청년이 함께 문제�
 
 - 주최: 글로컬대학30
 - 주관: 탈환 위캔스케일업 2026
-- 참관/후원: CPEE, 브리지임팩트, 글로벌창업네트워크, 몬드라곤대학교 서울랩, 다솜엑스 (이 순서대로 표기)
+- 참관/후원: CPEE, 브리지임팩트, 글로벌창업네트워크, 몬드라곤대학교 서울랩, HBM 사회적협동조합, 다솜엑스 (이 순서대로 표기)
 
 ## 2. 두 개의 트랙과 주제
 
@@ -165,7 +165,7 @@ OPEN HARBOR 2026은 포항에서 한국인과 외국인 청년이 함께 문제�
 ## 7. English Summary
 
 OPEN HARBOR 2026 · WE CAN SCALE UP in Pohang
-Hosted by Glocal University 30, organized by Talhwan We Can Scale Up 2026, with CPEE, Bridge Impact, Global Startup Network, Mondragon University Seoul Lab, and Dasom X.
+Hosted by Glocal University 30, organized by Talhwan We Can Scale Up 2026, with CPEE, Bridge Impact, Global Startup Network, Mondragon University Seoul Lab, HBM Social Cooperative, and Dasom X.
 
 OPEN HARBOR 2026 is a hackathon in Pohang where Korean and international young people solve problems together and grow their ideas. You can join with just an idea, or pitch a product you are already building.
 
