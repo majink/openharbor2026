@@ -547,9 +547,10 @@ section[id] { scroll-margin-top: calc(var(--bar-h) + 8px); }
 .logo-thc { height: 28px; }
 .logo-bridge { height: 28px; }
 .logo-dasom { height: 40px; }
+.logo-gsn { height: 32px; }
 .logo-pair { display: inline-flex; align-items: center; gap: 8px; }
 .logo-pair img { height: 38px; }
-/* 3열: 후원 칸은 로고 4개가 한 줄에 들어가도록 넓게 */
+/* 3열: 후원 칸은 로고가 많아 넓게 */
 @media (min-width: 960px) {
   .partners { grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr) minmax(0, 2.3fr); }
 }
