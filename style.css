@@ -429,8 +429,8 @@ section[id] { scroll-margin-top: calc(var(--bar-h) + 8px); }
 .speakers__how { font-size: var(--fs-sm); color: var(--muted); }
 
 /* ===== 심사위원과 멘토 ===== */
-/* 4명 모두 같은 크기 카드 2×2. 메인 멘토는 작은 태그 하나로만 구분 */
-.judges { margin-top: 32px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+/* 한 줄에 한 명씩: 옆 카드와 높이를 맞출 일이 없어 빈칸이 생기지 않는다. 메인 멘토는 작은 태그와 형광펜으로만 구분 */
+.judges { margin-top: 32px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; }
 .judge {
   padding: 18px 22px; border-radius: 20px;
   background: var(--card); color: var(--navy);
@@ -454,9 +454,11 @@ section[id] { scroll-margin-top: calc(var(--bar-h) + 8px); }
   -webkit-box-decoration-break: clone; box-decoration-break: clone;
 }
 .nobr { white-space: nowrap; }
-@media (max-width: 719px) {
-  .judges { grid-template-columns: minmax(0, 1fr); }
+/* 넓은 화면: 왼쪽 이름·태그, 오른쪽 소속·이력 */
+@media (min-width: 720px) {
+  .judge { display: grid; grid-template-columns: 250px minmax(0, 1fr); column-gap: 24px; align-items: center; }
 }
+.judge__body { display: flex; flex-direction: column; gap: 2px; }
 
 /* ===== 평가 탭 ===== */
 .tabs { margin-top: 32px; }
