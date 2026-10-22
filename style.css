@@ -446,10 +446,12 @@ section[id] { scroll-margin-top: calc(var(--bar-h) + 8px); }
 .judge__tag--main { background: #FFF3C4; }
 .judge__role { font-weight: 700; color: var(--blue); line-height: 1.45; word-break: keep-all; }
 .judge__more { font-size: var(--fs-sm); line-height: 1.55; color: #3B4A60; word-break: keep-all; }
-.judge__mentor {
-  margin: 4px 0 2px; padding: 6px 12px; border-radius: 10px;
-  background: #FFF3C4; border: 1.5px solid var(--navy);
-  font-weight: 700; line-height: 1.4; align-self: flex-start;
+.judge__mentor { font-size: var(--fs-sm); font-weight: 700; line-height: 1.55; }
+/* 형광펜: 글자 아래쪽 절반에만 연노랑 */
+.judge__mentor mark {
+  color: inherit; padding: 0 2px;
+  background: linear-gradient(transparent 55%, #FFE58A 55%);
+  -webkit-box-decoration-break: clone; box-decoration-break: clone;
 }
 .nobr { white-space: nowrap; }
 @media (max-width: 719px) {
