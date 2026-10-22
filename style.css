@@ -446,7 +446,11 @@ section[id] { scroll-margin-top: calc(var(--bar-h) + 8px); }
 .judge__tag--main { background: #FFF3C4; }
 .judge__role { font-weight: 700; color: var(--blue); line-height: 1.45; word-break: keep-all; }
 .judge__more { font-size: var(--fs-sm); line-height: 1.55; color: #3B4A60; word-break: keep-all; }
-.judge__more b { color: var(--navy); }
+.judge__mentor {
+  margin: 4px 0 2px; padding: 6px 12px; border-radius: 10px;
+  background: #FFF3C4; border: 1.5px solid var(--navy);
+  font-weight: 700; line-height: 1.4; align-self: flex-start;
+}
 .nobr { white-space: nowrap; }
 @media (max-width: 719px) {
   .judges { grid-template-columns: minmax(0, 1fr); }
