@@ -82,22 +82,22 @@ OPEN HARBOR 2026은 포항에서 한국인과 외국인 청년이 함께 문제�
 
 추가 프로그램은 확정되는 대로 공지합니다. 사전 프로그램 참여자에게는 모두 수료증을 발급합니다.
 
-### 심사위원과 육성
+### 심사위원과 멘토
 
-교내외 전문가 심사위원 4명이 두 트랙을 심사합니다. 심사에서 끝내지 않고, 가능성 있는 팀은 행사 뒤에도 보육·육성으로 이어 가려 합니다.
+교내외 전문가 심사위원 4명이 심사합니다. 메인 멘토는 참가팀의 보육·육성을 돕습니다.
 
-- 김진수 · 깃섬(GITXM) 대표 · 심사위원 겸 보육·육성 멘토 — 심사에 그치지 않고, 창업 경험을 바탕으로 참가팀이 행사 뒤에도 아이템을 키워 갈 수 있도록 보육·육성을 돕습니다
+- 김진수 · 깃섬(GITXM) 대표 · 메인 멘토, 심사위원 — 참가팀 보육·육성을 돕습니다
   - 캐나다 원주민 지역 비즈니스 선교(BAM) 운영
   - 전) 이미지 솔루션즈 창업자 (IT 서비스 기업, 1992년 창업)
-- 최중선 · 한동대학교 기계제어공학부 교수
+- 최중선 · 한동대학교 기계제어공학부 교수 · 심사위원
   - 한동대학교 창의융합교육원 교수
   - 한동대학교 공학교육혁신추진실 부센터장
-- 신이철 · (사)글로벌창업네트워크 대표
+- 신이철 · (사)글로벌창업네트워크 대표 · 심사위원
   - 한국 크라운재정사역 대표
   - 한국예수전도단 제주 열방대학 이사
-- 이원준 · 성균관대학교 경영대학 명예교수 · HBM사회적협동조합 이사장
+- 이원준 · 성균관대학교 경영대학 명예교수 · HBM사회적협동조합 이사장 · 심사위원
   - 몬드라곤 MTA(Mondragon Team Academy)의 팀 창업 방법론을 한국에 도입
-  - 성균관대 SeTA·ChangeMaker Lab을 이끌며 청년 팀 창업가(팀프레너) 육성
+  - 청년 체인지메이커·팀 창업가(팀프레너) 육성
 
 ## 4. 평가 기준과 시상
 
@@ -193,7 +193,7 @@ OPEN HARBOR 2026 is a hackathon in Pohang where Korean and international young p
 - Application: Oct 12 – Wednesday, October 28 via Google Form (Korean or English). Results announced by Friday, October 30
 - Special Talk 1 "The Art of Team Building for a Successful Startup": Oct 26 (Mon), offline, by Jung Youn Sub (beginmate) · Special Talk 2 "AX Skills Young People Need in the AI Era": Oct 28 (Wed) evening, online, by Kim Donghwan (42Maru) · AI Automation Workshop: first week of November (for participants)
 - All teams in both tracks receive pre-event feedback and 1:1 consulting before the main event.
-- Judges: four judges from GITXM, Handong Global University, Global Startup Network, and Sungkyunkwan University (HBM Social Cooperative). Promising teams may continue with incubation and mentoring after the event.
+- Judges: four judges from GITXM, Handong Global University, Global Startup Network, and Sungkyunkwan University (HBM Social Cooperative). The main mentor (GITXM) supports teams with incubation and mentoring.
 - Prizes: Ideathon KRW 500,000 / 300,000 / 100,000 (3 teams). Businessthon KRW 1,000,000 + investor connection / 500,000 + investor connection / 300,000 (2 teams). 9 teams in total
 - Submission: Businessthon teams submit a business plan (1-page summary + up to 4 pages) or a pitch deck (up to 15 slides) as a PDF
 - Contact: openharbor2026@gmail.com
