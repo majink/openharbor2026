@@ -84,9 +84,9 @@ OPEN HARBOR 2026은 포항에서 한국인과 외국인 청년이 함께 문제�
 
 ### 심사위원과 육성
 
-교내외 전문가가 심사를 맡습니다. 심사에서 끝내지 않고, 가능성 있는 팀은 행사 뒤에도 보육·육성으로 이어 가려 합니다.
+교내외 전문가 심사위원 4명이 두 트랙을 심사합니다. 심사에서 끝내지 않고, 가능성 있는 팀은 행사 뒤에도 보육·육성으로 이어 가려 합니다.
 
-- 김진수 · 깃섬(GITXM) 대표 — 심사와 함께 참가팀 보육·육성을 돕습니다
+- 김진수 · 깃섬(GITXM) 대표 · 심사위원 겸 보육·육성 멘토 — 심사에 그치지 않고, 창업 경험을 바탕으로 참가팀이 행사 뒤에도 아이템을 키워 갈 수 있도록 보육·육성을 돕습니다
   - 캐나다 원주민 지역 비즈니스 선교(BAM) 운영
   - 전) 이미지 솔루션즈 창업자 (IT 서비스 기업, 1992년 창업)
 - 최중선 · 한동대학교 기계제어공학부 교수
@@ -193,7 +193,7 @@ OPEN HARBOR 2026 is a hackathon in Pohang where Korean and international young p
 - Application: Oct 12 – Wednesday, October 28 via Google Form (Korean or English). Results announced by Friday, October 30
 - Special Talk 1 "The Art of Team Building for a Successful Startup": Oct 26 (Mon), offline, by Jung Youn Sub (beginmate) · Special Talk 2 "AX Skills Young People Need in the AI Era": Oct 28 (Wed) evening, online, by Kim Donghwan (42Maru) · AI Automation Workshop: first week of November (for participants)
 - All teams in both tracks receive pre-event feedback and 1:1 consulting before the main event.
-- Judges: experts from GITXM, Handong Global University, Global Startup Network, and Sungkyunkwan University (HBM Social Cooperative). Promising teams may continue with incubation and mentoring after the event.
+- Judges: four judges from GITXM, Handong Global University, Global Startup Network, and Sungkyunkwan University (HBM Social Cooperative). Promising teams may continue with incubation and mentoring after the event.
 - Prizes: Ideathon KRW 500,000 / 300,000 / 100,000 (3 teams). Businessthon KRW 1,000,000 + investor connection / 500,000 + investor connection / 300,000 (2 teams). 9 teams in total
 - Submission: Businessthon teams submit a business plan (1-page summary + up to 4 pages) or a pitch deck (up to 15 slides) as a PDF
 - Contact: openharbor2026@gmail.com
