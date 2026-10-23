@@ -295,6 +295,7 @@ section[id] { scroll-margin-top: calc(var(--bar-h) + 8px); }
 .zone--navy .section__lead { color: var(--on-navy); }
 /* 리드 문장의 굵은 낱말(보육·육성, 총 9팀 등)은 중간에서 줄바꿈하지 않는다 */
 .section__lead strong { white-space: nowrap; }
+.section__lead strong.wrap-ok { white-space: normal; }
 
 /* 같은 줄의 박스는 같은 높이 */
 .grid { margin-top: 32px; display: grid; gap: var(--gap); align-items: stretch; }
@@ -428,37 +429,25 @@ section[id] { scroll-margin-top: calc(var(--bar-h) + 8px); }
 .speakers__bio { font-size: var(--fs-sm); font-weight: 600; color: var(--blue); }
 .speakers__how { font-size: var(--fs-sm); color: var(--muted); }
 
-/* ===== 심사위원과 멘토 ===== */
-/* 한 줄에 한 명씩: 옆 카드와 높이를 맞출 일이 없어 빈칸이 생기지 않는다. 메인 멘토는 작은 태그와 형광펜으로만 구분 */
-.judges { margin-top: 32px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; }
+/* ===== 심사위원 · 네트워킹 ===== */
+.judges { margin-top: 32px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--gap); }
 .judge {
-  padding: 18px 22px; border-radius: 20px;
+  padding: 24px 28px; border-radius: 22px;
   background: var(--card); color: var(--navy);
   display: flex; flex-direction: column; gap: 4px;
 }
-.judge__top { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
-.judge__name { margin-right: 4px; font-family: var(--font-title); font-size: var(--fs-xl); line-height: 1.2; }
-.judge__tag {
-  padding: 1px 10px; border-radius: 999px;
-  background: var(--tint); color: var(--navy);
-  font-size: 13px; font-weight: 700; white-space: nowrap;
-}
-.judge__tag--main { background: #FFF3C4; }
+.judge__name { font-family: var(--font-title); font-size: var(--fs-2xl); line-height: 1.2; }
 .judge__role { font-weight: 700; color: var(--blue); line-height: 1.45; word-break: keep-all; }
-.judge__more { font-size: var(--fs-sm); line-height: 1.55; color: #3B4A60; word-break: keep-all; }
-.judge__mentor { font-size: var(--fs-sm); font-weight: 700; line-height: 1.55; }
-/* 형광펜: 글자 아래쪽 절반에만 연노랑 */
-.judge__mentor mark {
-  color: inherit; padding: 0 2px;
-  background: linear-gradient(transparent 55%, #FFE58A 55%);
-  -webkit-box-decoration-break: clone; box-decoration-break: clone;
+.judge__list { margin-top: 12px; display: flex; flex-direction: column; gap: 6px; font-size: var(--fs-md); line-height: 1.5; color: #3B4A60; word-break: keep-all; }
+.judge__list li { position: relative; padding-left: 14px; }
+.judge__list li::before { content: '·'; position: absolute; left: 2px; top: 0; font-weight: 700; }
+/* 김진수 대표의 보육·육성 지원: 짙은 코랄 굵은 글씨로만 강조 (흰 바탕 대비 AA) */
+.judge__point { font-weight: 700; color: #B83A20; }
+@media (max-width: 719px) {
+  .judges { grid-template-columns: minmax(0, 1fr); }
+  .judge { padding: 20px 22px; }
+  .judge__list { font-size: var(--fs-sm); }
 }
-.nobr { white-space: nowrap; }
-/* 넓은 화면: 왼쪽 이름·태그, 오른쪽 소속·이력 */
-@media (min-width: 720px) {
-  .judge { display: grid; grid-template-columns: 250px minmax(0, 1fr); column-gap: 24px; align-items: center; }
-}
-.judge__body { display: flex; flex-direction: column; gap: 2px; }
 
 /* ===== 평가 탭 ===== */
 .tabs { margin-top: 32px; }
