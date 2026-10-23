@@ -415,6 +415,32 @@ section[id] { scroll-margin-top: calc(var(--bar-h) + 8px); }
 .program .card__title .program__count { margin: 0; vertical-align: 0; }
 .program__topic { word-break: keep-all; }
 .program > .chips { margin-top: auto; }
+.program__meta { font-size: var(--fs-sm); line-height: 1.55; color: var(--muted); word-break: keep-all; }
+/* 특강 카드 아래 버튼 두 개: 포스터 보기 / 사전 신청하기 */
+.program__actions { margin-top: auto; padding-top: 4px; display: flex; flex-wrap: wrap; gap: 10px; }
+@media (max-width: 479px) {
+  .program__actions .btn { flex: 1 1 0; justify-content: center; text-align: center; }
+}
+
+/* ===== 특강 포스터 팝업 ===== */
+.poster-modal {
+  padding: 0; border: 0; background: transparent;
+  max-width: calc(100vw - 32px); max-height: calc(100vh - 32px); overflow: visible;
+}
+.poster-modal::backdrop { background: rgba(10, 22, 44, .78); }
+.poster-modal__inner { position: relative; }
+.poster-modal__img {
+  display: block; width: auto; height: auto;
+  max-width: calc(100vw - 32px); max-height: calc(100vh - 32px);
+  border-radius: 16px; background: var(--card);
+}
+.poster-modal__close {
+  position: absolute; top: 10px; right: 10px;
+  padding: 6px 14px; border-radius: 999px; border: 2px solid var(--navy);
+  background: var(--yellow); color: var(--navy);
+  font: 700 var(--fs-sm)/1.2 var(--font-body); cursor: pointer;
+}
+.poster-modal__close:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
 /* 중간 피드백: 모든 참가팀 혜택이라 살짝 강조 */
 .speakers__card--benefit { background: #FFF3C4; }
 .benefit-tag {

@@ -1,6 +1,8 @@
 const CONFIG = {
   FORM_URL: 'https://forms.gle/Xu1t3ecmrYcabD8x8', // 구글폼 신청 링크
   TEMPLATE_URL: 'https://drive.google.com/drive/folders/1yP8RwNqN8BOABiFggjJmJ1x-6mqCjSlS?usp=drive_link', // 사업계획서·발표자료 양식 링크
+  TALK1_FORM_URL: 'https://forms.gle/G9iTnTVbqKANqfio8', // 특강 1 사전 신청
+  TALK2_FORM_URL: 'https://forms.gle/WApiQXVNpkGUcyQ89', // 특강 2 사전 신청
   CONTACT: 'openharbor2026@gmail.com',
   DEADLINE: '2026-10-28T23:59:59+09:00',
 };
@@ -38,6 +40,28 @@ const CONFIG = {
       if (el.dataset.emptyText) el.textContent = el.dataset.emptyText;
     }
   });
+
+  /* ----- 특강 포스터 팝업 ----- */
+  const modal = $('#poster-modal');
+  if (modal && typeof modal.showModal === 'function') {
+    const img = modal.querySelector('.poster-modal__img');
+    const close = () => modal.close();
+    $$('[data-poster]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        img.src = btn.dataset.poster;
+        img.alt = btn.dataset.posterAlt || '';
+        modal.showModal();
+        document.documentElement.style.overflow = 'hidden';
+      });
+    });
+    modal.querySelector('.poster-modal__close').addEventListener('click', close);
+    // 포스터 바깥(어두운 배경)을 누르면 닫기
+    modal.addEventListener('click', (e) => { if (e.target === modal) close(); });
+    modal.addEventListener('close', () => { document.documentElement.style.overflow = ''; });
+  } else {
+    // dialog를 지원하지 않는 브라우저: 포스터를 새 탭으로
+    $$('[data-poster]').forEach((btn) => btn.addEventListener('click', () => window.open(btn.dataset.poster, '_blank', 'noopener')));
+  }
 
   /* ----- 신청 마감 D-n ----- */
   const dday = $('#dday');
