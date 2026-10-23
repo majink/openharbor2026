@@ -441,8 +441,12 @@ section[id] { scroll-margin-top: calc(var(--bar-h) + 8px); }
 .judge__list { margin-top: 12px; display: flex; flex-direction: column; gap: 6px; font-size: var(--fs-md); line-height: 1.5; color: #3B4A60; word-break: keep-all; }
 .judge__list li { position: relative; padding-left: 14px; }
 .judge__list li::before { content: '·'; position: absolute; left: 2px; top: 0; font-weight: 700; }
-/* 김진수 대표의 보육·육성 지원: 짙은 코랄 굵은 글씨로만 강조 (흰 바탕 대비 AA) */
-.judge__point { font-weight: 700; color: #B83A20; }
+/* 김진수 대표의 보육·육성 지원: 글자색은 그대로, 형광펜만 */
+.judge__point mark {
+  color: inherit; padding: 0 2px; margin-left: -2px;
+  background: linear-gradient(transparent 55%, #FFE58A 55%);
+  -webkit-box-decoration-break: clone; box-decoration-break: clone;
+}
 @media (max-width: 719px) {
   .judges { grid-template-columns: minmax(0, 1fr); }
   .judge { padding: 20px 22px; }
