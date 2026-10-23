@@ -441,10 +441,11 @@ section[id] { scroll-margin-top: calc(var(--bar-h) + 8px); }
 .judge__list { margin-top: 12px; display: flex; flex-direction: column; gap: 6px; font-size: var(--fs-md); line-height: 1.5; color: #3B4A60; word-break: keep-all; }
 .judge__list li { position: relative; padding-left: 14px; }
 .judge__list li::before { content: '·'; position: absolute; left: 2px; top: 0; font-weight: 700; }
-/* 김진수 대표의 보육·육성 지원: 글자색은 그대로, 형광펜만 */
+/* 김진수 대표의 보육·육성 지원: 굵은 글씨 + 형광펜(글자 아래 절반, 노랑). 여백을 주지 않아 다른 줄과 글자 시작점이 맞는다 */
+.judge__point { font-weight: 700; color: var(--navy); }
 .judge__point mark {
-  color: inherit; padding: 0 2px; margin-left: -2px;
-  background: linear-gradient(transparent 55%, #FFE58A 55%);
+  color: inherit; padding: 0;
+  background: linear-gradient(transparent 50%, var(--yellow) 50%, var(--yellow) 92%, transparent 92%);
   -webkit-box-decoration-break: clone; box-decoration-break: clone;
 }
 @media (max-width: 719px) {
