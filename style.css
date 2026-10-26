@@ -422,6 +422,31 @@ section[id] { scroll-margin-top: calc(var(--bar-h) + 8px); }
   .program__actions .btn { flex: 1 1 0; justify-content: center; text-align: center; }
 }
 
+/* ===== 특강 2 공지 팝업 ===== */
+.visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.notice {
+  --notice-w: min(420px, calc(100vw - 32px), calc((100vh - 170px) * 1200 / 1697));
+  width: var(--notice-w); max-width: none; max-height: none;
+  padding: 0; border: 3px solid var(--navy); border-radius: var(--radius);
+  background: var(--navy); color: #fff; overflow: hidden;
+}
+.notice::backdrop { background: rgba(10, 22, 44, .72); }
+.notice__poster { display: block; width: 100%; height: auto; background: var(--sky); }
+.notice__cta { padding: 14px 16px 6px; }
+.notice__cta .btn { --shadow: #0A1B36; border-color: #0A1B36; }
+.notice__bar { display: flex; justify-content: space-between; gap: 12px; padding: 4px 8px 8px; }
+.notice__link {
+  min-height: 40px; padding: 8px 10px; border: 0; border-radius: 10px;
+  background: transparent; color: var(--on-navy);
+  font: 600 var(--fs-sm)/1.2 var(--font-body); cursor: pointer;
+}
+.notice__link:hover { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
+.notice__link:focus-visible { outline: 3px solid var(--yellow); outline-offset: 0; }
+@media (prefers-reduced-motion: no-preference) {
+  .notice[open] { animation: notice-in .3s var(--ease-out); }
+}
+@keyframes notice-in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+
 /* ===== 특강 포스터 팝업 ===== */
 .poster-modal {
   padding: 0; border: 0; background: transparent;

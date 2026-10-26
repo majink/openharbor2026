@@ -3,6 +3,7 @@ const CONFIG = {
   TEMPLATE_URL: 'https://drive.google.com/drive/folders/1yP8RwNqN8BOABiFggjJmJ1x-6mqCjSlS?usp=drive_link', // 사업계획서·발표자료 양식 링크
   TALK1_FORM_URL: 'https://forms.gle/G9iTnTVbqKANqfio8', // 특강 1 사전 신청
   TALK2_FORM_URL: 'https://forms.gle/WApiQXVNpkGUcyQ89', // 특강 2 사전 신청
+  TALK2_NOTICE_UNTIL: '2026-10-28T18:30:00+09:00', // 특강 2 공지 팝업을 띄우는 마지막 시각(사전 신청 마감)
   CONTACT: 'openharbor2026@gmail.com',
   DEADLINE: '2026-10-28T23:59:59+09:00',
 };
@@ -61,6 +62,33 @@ const CONFIG = {
   } else {
     // dialog를 지원하지 않는 브라우저: 포스터를 새 탭으로
     $$('[data-poster]').forEach((btn) => btn.addEventListener('click', () => window.open(btn.dataset.poster, '_blank', 'noopener')));
+  }
+
+  /* ----- 특강 2 공지 팝업 (방문 시 자동으로 뜸) ----- */
+  const notice = $('#talk2-notice');
+  const HIDE_KEY = 'openharbor-talk2-notice-hidden';
+  const hiddenToday = () => {
+    try { return localStorage.getItem(HIDE_KEY) === today; } catch (e) { return false; }
+  };
+  if (notice && typeof notice.showModal === 'function'
+      && Date.now() < new Date(CONFIG.TALK2_NOTICE_UNTIL).getTime() && !hiddenToday()) {
+    const poster = notice.querySelector('.notice__poster');
+    poster.src = poster.dataset.src; // 팝업을 띄울 때만 포스터를 불러온다
+    const closeNotice = () => notice.close();
+    notice.querySelector('[data-notice="close"]').addEventListener('click', closeNotice);
+    notice.querySelector('[data-notice="today"]').addEventListener('click', () => {
+      try { localStorage.setItem(HIDE_KEY, today); } catch (e) { /* 저장이 막혀 있으면 이번만 닫는다 */ }
+      closeNotice();
+    });
+    // 바깥(어두운 배경)을 누르면 닫기
+    notice.addEventListener('click', (e) => { if (e.target === notice) closeNotice(); });
+    notice.addEventListener('close', () => { document.documentElement.style.overflow = ''; });
+    const open = () => {
+      notice.showModal();
+      document.documentElement.style.overflow = 'hidden';
+    };
+    if (poster.complete) open(); else poster.addEventListener('load', open, { once: true });
+    poster.addEventListener('error', () => notice.remove(), { once: true });
   }
 
   /* ----- 신청 마감 D-n ----- */

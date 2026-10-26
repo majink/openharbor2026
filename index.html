@@ -691,6 +691,19 @@
   </div>
 </dialog>
 
+<!-- 특강 2 공지 팝업: CONFIG.TALK2_NOTICE_UNTIL 이후에는 뜨지 않는다 -->
+<dialog class="notice" id="talk2-notice" aria-labelledby="talk2-notice-title">
+  <h2 class="visually-hidden" id="talk2-notice-title" tabindex="-1" autofocus>특강 2 안내: The Age of Agentic AX, 나의 경쟁력을 다시 설계하다</h2>
+  <img class="notice__poster" data-src="assets/posters/talk2.jpg" alt="특강 2 포스터: The Age of Agentic AX, 나의 경쟁력을 다시 설계하다. 10월 28일 수요일 19시~20시, 온라인 ZOOM. 연사 김동환 대표, 포티투마루 대표이사. AI·AX에 관심 있는 누구나, 무료, 대회 참가 여부 무관. 당일 18시 30분까지 사전 신청하면 링크를 일괄 발송합니다." width="1200" height="1697">
+  <div class="notice__cta">
+    <a class="btn btn--block" data-config="TALK2_FORM_URL" data-empty-text="신청 준비 중">신청하러 바로 가기</a>
+  </div>
+  <div class="notice__bar">
+    <button type="button" class="notice__link" data-notice="today">오늘 하루 보지 않기</button>
+    <button type="button" class="notice__link" data-notice="close">닫기</button>
+  </div>
+</dialog>
+
 <div class="mobile-cta" id="mobile-cta">
   <a class="btn btn--block" data-config="FORM_URL" data-empty-text="신청 준비 중">신청하기</a>
 </div>
